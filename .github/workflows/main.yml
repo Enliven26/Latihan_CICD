@@ -49,4 +49,3 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: cd /home/rplcicd/13521148 && screen -dmS flask-21148 python3 -m flask run --host=0.0.0.0 --port=21148 && ps -ef | grep 21148
-
